@@ -38,6 +38,9 @@
         "protocol": {
           "type": "string"
         },
+        "profile": {
+          "type": "string"
+        },
         "createdAt": {
           "type": "integer"
         },
@@ -62,6 +65,9 @@
         "assetId": {
           "type": "string"
         },
+        "policy": {
+          "$ref": "https://w3id.org/edc/connector/management/schema/v4/policy-definition-schema.json#/definitions/PolicyClass"
+        },
         "contractAgreementId": {
           "type": "string"
         }
@@ -72,6 +78,7 @@
         "@id",
         "type",
         "state",
+        "profile",
         "protocol",
         "counterPartyAddress",
         "counterPartyId",
